@@ -2,7 +2,7 @@ package org.IhorLitvinov.utils.graph.search;
 
 import com.google.common.collect.ImmutableMap;
 import org.IhorLitvinov.utils.graph.Graph;
-import org.IhorLitvinov.utils.graph.Implementation.adjacencyMatrixGraph;
+import org.IhorLitvinov.utils.graph.Implementation.AdjacencyMatrixGraph;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -42,8 +42,8 @@ public class DepthFirstSearchTest {
             {0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0}
     };
 
-    private Graph graph1 = new adjacencyMatrixGraph(adjacencyMatrix1);
-    private Graph graph2 = new adjacencyMatrixGraph(adjacencyMatrix2);
+    private Graph graph1 = new AdjacencyMatrixGraph(adjacencyMatrix1);
+    private Graph graph2 = new AdjacencyMatrixGraph(adjacencyMatrix2);
 
     private Map<Integer, Integer> nodeMarks = new HashMap<>();
 

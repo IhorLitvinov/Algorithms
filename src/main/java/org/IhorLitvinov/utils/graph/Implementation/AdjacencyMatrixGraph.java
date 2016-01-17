@@ -6,11 +6,11 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.function.IntPredicate;
 
-public class adjacencyMatrixGraph implements Graph {
+public class AdjacencyMatrixGraph implements Graph {
     private static final int NOT_CONNECTED = 0;
     private int[][] adjacencyMatrix;
 
-    public adjacencyMatrixGraph(int[][] adjacencyMatrix) {
+    public AdjacencyMatrixGraph(int[][] adjacencyMatrix) {
         this.adjacencyMatrix = adjacencyMatrix;
     }
 
