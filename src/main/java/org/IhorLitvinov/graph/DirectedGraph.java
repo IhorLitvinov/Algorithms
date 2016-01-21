@@ -1,8 +1,8 @@
-package org.IhorLitvinov.utils.graph;
+package org.IhorLitvinov.graph;
 
 import java.util.List;
 
-public interface Graph {
+public interface DirectedGraph {
 
     List<Integer> getChildrenIds(int nodeId);
 

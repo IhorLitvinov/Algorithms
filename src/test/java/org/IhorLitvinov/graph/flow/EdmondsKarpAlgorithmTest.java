@@ -1,6 +1,7 @@
-package org.IhorLitvinov.utils.graph.flow;
+package org.IhorLitvinov.graph.flow;
 
-import org.IhorLitvinov.utils.graph.Implementation.MatrixFlowNetwork;
+import org.IhorLitvinov.graph.Implementation.MatrixFlowNetwork;
+import org.IhorLitvinov.graph.flow.EdmondsKarpAlgorithm;
 import org.junit.Assert;
 import org.junit.Test;
 

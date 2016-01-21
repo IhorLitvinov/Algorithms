@@ -1,4 +1,4 @@
-package org.IhorLitvinov.utils.graph.search;
+package org.IhorLitvinov.graph.search;
 
 import java.util.LinkedList;
 import java.util.List;

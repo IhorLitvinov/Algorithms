@@ -1,12 +1,12 @@
-package org.IhorLitvinov.utils.graph.Implementation;
+package org.IhorLitvinov.graph.Implementation;
 
-import org.IhorLitvinov.utils.graph.Graph;
+import org.IhorLitvinov.graph.DirectedGraph;
 
 import java.util.LinkedList;
 import java.util.List;
 import java.util.function.IntPredicate;
 
-public class AdjacencyMatrixGraph implements Graph {
+public class AdjacencyMatrixGraph implements DirectedGraph {
     private static final int NOT_CONNECTED = 0;
     private int[][] adjacencyMatrix;
 

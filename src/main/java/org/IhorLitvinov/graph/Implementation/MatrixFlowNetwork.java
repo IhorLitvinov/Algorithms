@@ -1,6 +1,6 @@
-package org.IhorLitvinov.utils.graph.Implementation;
+package org.IhorLitvinov.graph.Implementation;
 
-import org.IhorLitvinov.utils.graph.FlowNetwork;
+import org.IhorLitvinov.graph.FlowNetwork;
 
 import java.util.Collections;
 import java.util.List;

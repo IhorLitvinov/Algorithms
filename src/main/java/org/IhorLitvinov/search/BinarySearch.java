@@ -1,4 +1,4 @@
-package org.IhorLitvinov.utils.search;
+package org.IhorLitvinov.search;
 
 import java.util.function.IntPredicate;
 import java.util.function.IntUnaryOperator;

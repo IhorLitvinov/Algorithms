@@ -1,7 +1,7 @@
-package org.IhorLitvinov.utils.graph.flow;
+package org.IhorLitvinov.graph.flow;
 
-import org.IhorLitvinov.utils.graph.FlowNetwork;
-import org.IhorLitvinov.utils.graph.search.BreadthFirstSearch;
+import org.IhorLitvinov.graph.FlowNetwork;
+import org.IhorLitvinov.graph.search.BreadthFirstSearch;
 
 import java.util.HashMap;
 import java.util.List;

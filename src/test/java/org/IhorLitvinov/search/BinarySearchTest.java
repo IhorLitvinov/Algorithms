@@ -1,6 +1,7 @@
-package org.IhorLitvinov.utils.search;
+package org.IhorLitvinov.search;
 
-import org.IhorLitvinov.utils.search.BinarySearch.BinarySearchMode;
+import org.IhorLitvinov.search.BinarySearch;
+import org.IhorLitvinov.search.BinarySearch.BinarySearchMode;
 import org.junit.Assert;
 import org.junit.Test;
 
